@@ -1,0 +1,20 @@
+HTML
+--
+  Heading Elements 
+  --
+    h1 to h6 
+    * h1 can be only one in a webpage 
+
+  1. Block Level Elements
+      examples: h1 to h6, p
+ 
+  2. Inline Elements 
+      examples: span, a
+
+      
+Web Layout 
+--
+  1. Fixed Layout 
+      * fixed width 
+  2. Fluid Layout 
+      * will occupy the 100% of width 
