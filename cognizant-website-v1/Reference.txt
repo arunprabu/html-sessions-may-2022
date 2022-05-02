@@ -18,3 +18,21 @@ Web Layout
       * fixed width 
   2. Fluid Layout 
       * will occupy the 100% of width 
+
+Browser 
+--
+  HTML Renderer 
+  CSS Parser 
+  JS Engine 
+
+---
+Front End Web Dev
+---
+  1. Structural Layer 
+      HTML 
+  2. Presentation Layer 
+      CSS 
+  3. Interaction Layer 
+      JS 
+
+-----
