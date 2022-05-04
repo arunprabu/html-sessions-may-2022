@@ -9,7 +9,7 @@ HTML
       examples: h1 to h6, p
  
   2. Inline Elements 
-      examples: span, a
+      examples: span, a, label, input, button 
 
       
 Web Layout 
@@ -36,3 +36,21 @@ Front End Web Dev
       JS 
 
 -----
+Semantic Elements 
+--
+  h1 to h6, p, a, button, form,
+
+Non-Semantic Elements
+---
+  div, span, 
+
+
+HTML5 Elements 
+--
+  header, footer, main, section, nav, aside
+
+HTML5 Attributes
+---
+  type="email"
+
+
