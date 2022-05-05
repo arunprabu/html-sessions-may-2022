@@ -1,0 +1,48 @@
+CSS (Cascading Style Sheet )
+---
+  * Presentation layer 
+  
+3 Ways to write CSS
+--
+  1. Inline CSS / Styles [DONE]
+      * applied directly on the element 
+      * can't be reused in another element 
+
+      Disadv
+      --
+        1. Mixing both structural and presentation layer 
+        2. styles can't be reused in another element 
+        3. styles can't be resued in another page 
+
+  2. Internal CSS / Styles 
+      
+  3. External CSS / Styles 
+
+How to write CSS? 
+--
+  Syntax for Internal and External Styles :
+  ---
+    <selector> {
+      /* style defn */ 
+      property: value;
+      property: value;
+    }
+
+  Syntax for Inline Styles
+  ---
+    * written on element itself 
+    <div style="property: value; property: value;">
+
+---
+What is a selector?
+---
+  1. Element / Tag Selector 
+  2. Class Selector
+  3. ID selector
+  4. Attribute Selector
+  5. Pseudo selector [TODO]
+---
+
+
+
+
