@@ -15,8 +15,26 @@ CSS (Cascading Style Sheet )
         3. styles can't be resued in another page 
 
   2. Internal CSS / Styles 
-      
+      * coded inside the html file itself 
+      * inside <head> element  
+      * should be coded within <style></style>
+      * reusable within the page 
+
+      Disadv
+      ---
+        1. Mixing both structural and presentation layer 
+        2. styles can't be resued in another page 
+
   3. External CSS / Styles 
+      * coded in a separate .css file 
+      * reusable across pages 
+      * connect the css file with the html 
+      * using <link rel="stylesheet" href="./assets/styles/app.css">
+
+  CSS Precedence 
+  --
+    External => Internal => Inline 
+
 
 How to write CSS? 
 --
@@ -37,12 +55,26 @@ How to write CSS?
 What is a selector?
 ---
   1. Element / Tag Selector 
-  2. Class Selector
-  3. ID selector
+  2. ID selector
+  3. Class Selector
   4. Attribute Selector
   5. Pseudo selector [TODO]
 ---
 
 
+
+Block => Inline 
+  1. using display: inline;  or display: inline-block;
+  2. using float in css [TODO]
+  3. using flex container (flexible boxes)
+
+Inline  => Block 
+  1. using display: block;
+
+----
+Topics: 
+  CSS3 
+    * font embedding 
+    
 
 

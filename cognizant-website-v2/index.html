@@ -1,77 +1,95 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!-- will not be visible in viewport -->
-    <!-- ideal place for you to describe the webpage -->
-    <title>Cognizant Website - v1</title>
-    <!-- Search Engines - SEO -->
-    <meta name="description" content="Cognizant Website v1">
-  </head>
 
-  <body>
-    <!-- will be visible in viewport -->
-    <header>
-      <div id="topHeader">
-        <a href="./index.html">Cognizant.com</a>
-        
-        <nav id="topNav">
-          <ul>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">Events</a></li>
-          </ul>
-        </nav>
-      </div>
+<head>
+  <!-- will not be visible in viewport -->
+  <!-- ideal place for you to describe the webpage -->
+  <title>Cognizant Website - v1</title>
+  <!-- Search Engines - SEO -->
+  <meta name="description" content="Cognizant Website v1">
 
-      <div id="header">
-        <a href="./index.html">
-          <img src="./assets/images/Cognizant-Logo.svg" 
-            alt="Cognizant Website Logo" width="240">
-        </a>
+  <!-- app-wide / global styles -->
+  <link rel="stylesheet" href="./assets/styles/app.css">
 
-        <nav id="primaryNav">
-          <ul>
-            <li><a href="#">Industries</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Latest Thinking</a></li>
-            <li><a href="./about.html">About</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+  <style>
+    /* element selector */
+    button {
+      background-color: aqua;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 20px;
+      font-weight: bold;
+    }
 
-    <main>
-      <section id="slideshow">
-        <h1>Intuition Engineered -- human insight at superhuman speed</h1>
-        <p>Anticipate trends. Drive meaningful change. Outthink your competition. That's the power of intuition—and we can engineer it.</p>
-        <button type="button" 
-          style="background-color: aqua; 
-                  border: none; 
-                  padding: 10px 18px; 
-                  border-radius: 20px; 
-                  font-weight: bold;">Learn more...</button>
-      </section>
+    /* overriding styles - cascading style */
+    footer {
+      text-align: right;
+    }
+  </style>
+</head>
 
-      <section id="introWrapper">
-        <!-- Inline Style -->
-        <h2 style="color:#2f78c4; font-weight: 300; line-height: 43px;">Cognizant helps companies modernize technology, reimagine processes and transform experiences so they stay ahead in a fast-changing world.</h2>
-      </section>
+<body>
+  <!-- will be visible in viewport -->
+  <header>
+    <div id="topHeader">
+      <a href="./index.html">Cognizant.com</a>
 
-      <section id="careerWrapper">
-        <img src="./assets/images/recruitment-top-banner.png" alt="Recruitment @Cognizant">
-        <h4>Advance your career—and the world we live in</h4>
-        <p>
-          Continuously sharpen your technical skills, your problem-solving abilities and your entrepreneurial spirit. Join Cognizant, and help us change lives.
-        </p>
-        <button type="button">Browse Job Listings...</button>
-      </section>
-    </main>
+      <nav class="topNav">
+        <ul>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Events</a></li>
+        </ul>
+      </nav>
+    </div>
 
-    <footer>
-      <hr>
-      <p>Copyright 2022 | Arun</p>
-    </footer>
+    <div id="header">
+      <a href="./index.html">
+        <img src="./assets/images/Cognizant-Logo.svg" alt="Cognizant Website Logo" width="240">
+      </a>
 
-  </body>
+      <nav class="primaryNav">
+        <ul>
+          <li><a href="#">Industries</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Latest Thinking</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="slideshow">
+      <h1>Intuition Engineered -- human insight at superhuman speed</h1>
+      <p>Anticipate trends. Drive meaningful change. Outthink your competition. That's the power of intuition—and we can
+        engineer it.</p>
+      <button type="button">Learn more...</button>
+    </section>
+
+    <section id="introWrapper">
+      <!-- Inline Style -->
+      <h2 style="color:#2f78c4; font-weight: 300; line-height: 43px;">Cognizant helps companies modernize technology,
+        reimagine processes and transform experiences so they stay ahead in a fast-changing world.</h2>
+    </section>
+
+    <section id="careerWrapper">
+      <img src="./assets/images/recruitment-top-banner.png" alt="Recruitment @Cognizant">
+      <h4>Advance your career—and the world we live in</h4>
+      <p>
+        Continuously sharpen your technical skills, your problem-solving abilities and your entrepreneurial spirit. Join
+        Cognizant, and help us change lives.
+      </p>
+      <button type="button">Browse Job Listings...</button>
+    </section>
+  </main>
+
+  <footer>
+    <hr>
+    <p>Copyright 2022 | Arun</p>
+  </footer>
+  
+</body>
+
 </html>
