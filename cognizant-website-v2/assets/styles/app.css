@@ -48,28 +48,34 @@ table {
 	border-spacing: 0;
 }
 
+/* Reset css ended */
+
+/* element selector */
 body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* element selector */
+h1{
+	font-size: 38px;
+	line-height: 40px;
+	font-weight: bold;
+}
+
 footer {
   text-align: center;
+}
+
+button{
+	box-shadow: 3px 3px 8px 2px #0077ff;
 }
 
 /* id selector - Not recommended */
 #topHeader{
   background-color: #e8e8e6;
+	padding: 10px 10%;
 }
 
 /* class selector - Recommended */ 
-.slideshow{
-  text-align: center;
-  background-color: darkblue;
-  color: #fff;
-  padding: 140px 0 140px 0; /* top right bottom left */
-}
-
 .topNav{
 	display: inline-block;
 	width: 86%;
@@ -77,4 +83,51 @@ footer {
 }
 .topNav ul li, .primaryNav ul li{
   display: inline;
+}
+
+.mainHeader {
+	padding: 16px 10%;
+}
+.logoBox{
+	display: inline-block;
+  width: 250px;
+}
+
+.primaryNav{
+	display: inline-block;
+	height: 50px;
+	width: calc(100% - 260px);
+	vertical-align: top;
+	text-align:  right;
+}
+
+.primaryNav ul {
+	padding: 12px;
+}
+
+.primaryNav ul li a {
+	color: grey;
+	text-decoration: none;
+	font-size: 20px;
+	margin: 0 15px;
+}
+
+.slideshow{
+  text-align: center;
+	background: #e7e7e7  url('../images/office-bg.jpeg') no-repeat;
+	background-size: cover;
+  padding: 140px 0 140px 0; /* top right bottom left */
+}
+
+.slideshow h1{
+	text-shadow: 8px 5px 6px #0e014f;
+	color: #fff;
+}
+
+
+.slideshow p{
+	color: white;
+	text-shadow: 5px 4px 5px #000000;
+	font-size: 20px;
+	padding: 33px;
 }

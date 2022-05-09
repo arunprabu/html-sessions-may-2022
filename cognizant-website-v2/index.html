@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <!-- will not be visible in viewport -->
   <!-- ideal place for you to describe the webpage -->
-  <title>Cognizant Website - v1</title>
+  <title>Cognizant Website - v2</title>
   <!-- Search Engines - SEO -->
   <meta name="description" content="Cognizant Website v1">
 
@@ -22,9 +22,6 @@
     }
 
     /* overriding styles - cascading style */
-    footer {
-      text-align: right;
-    }
   </style>
 </head>
 
@@ -43,10 +40,10 @@
       </nav>
     </div>
 
-    <div id="header">
-      <a href="./index.html">
-        <img src="./assets/images/Cognizant-Logo.svg" alt="Cognizant Website Logo" width="240">
-      </a>
+    <div class="mainHeader">
+      <div class="logoBox">
+        <a href="./index.html"><img src="./assets/images/Cognizant-Logo.svg" alt="Cognizant Website Logo" width="240"></a>
+      </div>
 
       <nav class="primaryNav">
         <ul>
@@ -74,14 +71,20 @@
         reimagine processes and transform experiences so they stay ahead in a fast-changing world.</h2>
     </section>
 
+    <!-- change the following section to use css3 flex -->
     <section id="careerWrapper">
-      <img src="./assets/images/recruitment-top-banner.png" alt="Recruitment @Cognizant">
-      <h4>Advance your career—and the world we live in</h4>
-      <p>
-        Continuously sharpen your technical skills, your problem-solving abilities and your entrepreneurial spirit. Join
-        Cognizant, and help us change lives.
-      </p>
-      <button type="button">Browse Job Listings...</button>
+      <div>
+        <img src="./assets/images/recruitment-top-banner.png" alt="Recruitment @Cognizant">
+      </div>
+
+      <div>
+        <h4>Advance your career—and the world we live in</h4>
+        <p>
+          Continuously sharpen your technical skills, your problem-solving abilities and your entrepreneurial spirit. Join
+          Cognizant, and help us change lives.
+        </p>
+        <button type="button">Browse Job Listings...</button>
+      </div>
     </section>
   </main>
 
