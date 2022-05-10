@@ -116,6 +116,9 @@ button{
 	font-size: 20px;
 	margin: 0 15px;
 }
+.collapseMenu{
+	display: none;
+}
 
 .slideshow{
   text-align: center;
@@ -214,3 +217,77 @@ input[type='text'], input[type='email'], textarea{
 .contactFormWrapper button[type='reset']{
 	margin-left: 202px;
 }
+
+
+/* Responsive Web Design Styles */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	body{
+		background-color: red;
+	}
+	.primaryNav{
+		display: none;
+	}
+
+	.collapseMenu{
+		display: block;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	body{
+		background-color: green;
+	}
+	.primaryNav{
+		display: none;
+	}
+
+	.collapseMenu{
+		display: block;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	body{
+		background-color: blueviolet;
+	}
+	.primaryNav{
+		display: none;
+	}
+
+	.collapseMenu{
+		display: block;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	body{
+		background-color: yellow;
+	}
+	.primaryNav{
+		display: inline-block;
+	}
+
+	.collapseMenu{
+		display: none;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	body{
+		background-color: pink;
+	}
+	.primaryNav{
+		display: inline-block;
+	}
+
+	.collapseMenu{
+		display: none;
+	}
+}
+
+/* TODO: learn about Mobile first design */
