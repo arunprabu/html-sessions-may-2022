@@ -45,49 +45,52 @@
   </header>
 
   <main>
-    <h1>Contact</h1>
-
-    <h2>Locate us here...</h2>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62222.58875182241!2d80.18415820095849!3d12.91339030378785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525c6f13fca667%3A0x84dfc419b2e83941!2sCognizant%20Technology%20Solutions!5e0!3m2!1sen!2sin!4v1651645671734!5m2!1sen!2sin" 
-    width="600" 
-    height="450" 
-    style="border:0;" 
-    allowfullscreen="" 
-    loading="lazy" 
-    referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-    <section>
-      <h3>Submit your query here</h3>
-      <form>
-        <div>
-          <label for="nameInput">Enter Name</label>
-          <input type="text" placeholder="Type in full name" id="nameInput" required>
-        </div>
-
-        <div>
-          <label for="emailInput">Enter Email</label>
-          <input type="email" placeholder="Type in email" id="emailInput" required>
-        </div>
-
-        <div>
-          <label for="queryInput">Enter Query</label>
-          <textarea id="queryInput" required></textarea>
-        </div>
-
-        <button type="reset">Reset</button>
-        <button type="submit">Submit</button>
-      </form>
+    <section class="mapWrapper">
+      <h1>Contact</h1>
+      <h2>Locate us here...</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62222.58875182241!2d80.18415820095849!3d12.91339030378785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525c6f13fca667%3A0x84dfc419b2e83941!2sCognizant%20Technology%20Solutions!5e0!3m2!1sen!2sin!4v1651645671734!5m2!1sen!2sin" 
+      width="600" 
+      height="450" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
 
-    <aside>
-      <address>
-        <p><strong>Cognizant Technology Solutions</strong></p>
-        <p>W64F+PG2 ELCOT SEZ, Elcot Sez, </p>
-        <p>SEZ Ave, Elcot Sez, </p> 
-        <p>Sholinganallur, Chennai, </p>
-        <p>Tamil Nadu 600119</p>
-      </address>
-    </aside>
+    <div class="contactWrapper">
+      <section class="contactFormWrapper">
+        <h3>Submit your query here</h3>
+        <form>
+          <div class="formField">
+            <label for="nameInput">Enter Name</label>
+            <input type="text" placeholder="Type in full name" id="nameInput" required>
+          </div>
+
+          <div class="formField">
+            <label for="emailInput">Enter Email</label>
+            <input type="email" placeholder="Type in email" id="emailInput" required>
+          </div>
+
+          <div class="formField">
+            <label for="queryInput" style="vertical-align: top;">Enter Query</label>
+            <textarea id="queryInput" required></textarea>
+          </div>
+
+          <button type="reset">Reset</button>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+
+      <aside class="addressWrapper">
+        <address>
+          <p><strong>Cognizant Technology Solutions</strong></p>
+          <p>W64F+PG2 ELCOT SEZ, Elcot Sez, </p>
+          <p>SEZ Ave, Elcot Sez, </p> 
+          <p>Sholinganallur, Chennai, </p>
+          <p>Tamil Nadu 600119</p>
+        </address>
+      </aside>
+    </div>
 
   </main>
 

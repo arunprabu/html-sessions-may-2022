@@ -124,10 +124,87 @@ button{
 	color: #fff;
 }
 
-
 .slideshow p{
 	color: white;
 	text-shadow: 5px 4px 5px #000000;
 	font-size: 20px;
 	padding: 33px;
+}
+
+.introWrapper{
+	padding: 50px 10%;
+}
+
+.introWrapper h2{
+	font-size: 36px;
+	line-height: 43px;
+	text-align: center;
+}
+
+.careerWrapper{
+	display: flex;
+	padding: 0 10%;
+	background: darkblue;
+	height: 324px;
+}
+
+.careerWrapper .banner{
+	width: 50%;
+}
+
+.careerWrapper .jobListing{
+	width: 50%;
+	padding: 45px 72px;
+}
+
+.jobListing h4, .jobListing p{
+	color: #fff;
+}
+.jobListing h4{
+	font-size: 30px;
+	line-height: 42px;
+}
+
+.jobListing p{
+	line-height: 36px;
+}
+
+/* contact page styles */
+.mapWrapper{
+	padding: 50px 10%;
+	text-align: center;
+}
+
+.contactWrapper{
+	padding: 50px 10%;
+	display: flex;
+}
+.contactFormWrapper{
+	width:70%;
+}
+.addressWrapper{
+	width: 30%;
+}
+
+.contactFormWrapper h3{
+	font-size: 32px;
+}
+
+.formField{
+	margin: 30px 0;
+}
+
+.contactFormWrapper label{
+	width: 200px;
+	display: inline-block;
+}
+
+/* attribute selector */
+input[type='text'], input[type='email'], textarea{
+	width: 400px;
+	padding: 10px;
+}
+
+.contactFormWrapper button[type='reset']{
+	margin-left: 202px;
 }
