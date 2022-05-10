@@ -49,10 +49,15 @@ table {
 }
 
 /* Reset css ended */
+/* embed the font */
+@font-face {
+	font-family: 'IBM Plex Sans';
+	src: url('../fonts/IBM_Plex_Sans/IBMPlexSans-Light.ttf');
+}
 
 /* element selector */
-body{
-  font-family: Arial, Helvetica, sans-serif;
+body, button{
+	font-family: 'IBM Plex Sans', sans-serif;
 }
 
 h1{
@@ -178,6 +183,7 @@ button{
 .contactWrapper{
 	padding: 50px 10%;
 	display: flex;
+	background: linear-gradient(326deg, rgba(14,0,255,1) 0%, rgba(228,224,0,1) 30%, rgba(80,158,184,1) 63%, rgba(170,0,164,1) 100%);
 }
 .contactFormWrapper{
 	width:70%;
