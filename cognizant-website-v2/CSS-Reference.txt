@@ -72,9 +72,14 @@ Inline  => Block
   1. using display: block;
 
 ----
-Topics: 
-  CSS3 
-    * font embedding 
-    
+Responsive Web Design (RWD)
+--
+  * optimizing web experience for mobile (portrait and landscape), tablet(portrait and landscape), 
+    desktp/laptop and smart tvs 
+  
 
+  Media Query
+  ---
+    * @media rule 
+    
 

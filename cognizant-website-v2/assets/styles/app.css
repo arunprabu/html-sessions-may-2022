@@ -65,9 +65,22 @@ h1{
 	line-height: 40px;
 	font-weight: bold;
 }
+header{
+	position: fixed;
+	background-color: #fff;
+	width: 100%;
+}
+main{
+	padding-top: 100px;
+}
 
 footer {
   text-align: center;
+}
+
+footer p{
+	position: relative;
+	margin-left: 80%;
 }
 
 button{
@@ -133,7 +146,7 @@ button{
 }
 
 .slideshow p{
-	color: white;
+	color: #fff;
 	text-shadow: 5px 4px 5px #000000;
 	font-size: 20px;
 	padding: 33px;
